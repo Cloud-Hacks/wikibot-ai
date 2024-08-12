@@ -3,11 +3,7 @@ from wikisearch import search_wikipedia
 from model import generate_response
 from components.sidebar import side_info
 
-# Custom function to initialize the page
-def initPage(title):
-    st.set_page_config(page_title=title)
-
-initPage("🔍: WikiBotAI Query Interface")
+st.title("🔍: WikiBotAI Query Interface")
 side_info()
 
 # Helper functions
