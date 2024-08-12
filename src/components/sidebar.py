@@ -5,7 +5,7 @@ def side_info():
     with st.sidebar:
         # Display logo and images
         # st.logo("assets/gitrepo.png", icon_image="assets/title.png", link="https://github.com/Cloud-Hacks/wikibot-ai")
-        st.image("assets/wikibot.svg")
+        st.image("assets/wikibot.svg", width=220)
 
         # Display an informational card
         card_html = """
