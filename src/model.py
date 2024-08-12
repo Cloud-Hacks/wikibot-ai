@@ -6,7 +6,7 @@ def initialize():
     """
     Initialize the configurations and clients using Streamlit secrets and session state.
 
-    This function sets up the GitHub client, TiDB connection, Jina embedding model, and LLM.
+    This function sets up the Gemini API key.
     It handles the input of credentials and configurations from Streamlit's secrets or sidebar inputs.
     """
     if "GEMINI_API_KEY" in st.secrets:

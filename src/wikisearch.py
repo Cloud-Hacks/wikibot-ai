@@ -1,5 +1,6 @@
 import wikipedia
 
+# Function to search Wikipedia for a given query
 def search_wikipedia(query, limit):
     wikipedia.set_lang("en")
     search_results = wikipedia.search(query, results=limit)
