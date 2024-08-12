@@ -1,11 +1,17 @@
 import streamlit as st
+import os
 
 # Display the sidebar with additional information and settings
 def side_info():
     with st.sidebar:
-        # Display logo and images
-        # st.logo("assets/gitrepo.png", icon_image="assets/title.png", link="https://github.com/Cloud-Hacks/wikibot-ai")
-        st.image("assets/wikibot.png", width=250)
+        # Define the image path
+        image_path = "assets/wikibot.png"
+        
+        # Check if the image file exists
+        if os.path.exists(image_path):
+            st.image(image_path, width=250)
+        else:
+            st.error(f"Image not found: {image_path}")
 
         # Display an informational card
         card_html = """
