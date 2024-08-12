@@ -25,7 +25,7 @@
 <!--ts-->
    * [Project Overview](#Overview)
    * [Features](#Features)
-      * [App Architecture](#App-Architecture) :TODO
+      * [App Architecture](#App-Architecture)
    * [Prerequisites](#Prerequisites)
    * [Project Setup](#Installation)
    * [Contributing](#Contributing)
@@ -34,6 +34,8 @@
 
 ## Overview  
 WikiBot AI leverages the Gemini Flask model to enhance query search capabilities. This intelligent assistant is designed to help users navigate and extract information from Wikipedia efficiently. By utilizing advanced natural language processing, WikiBot AI allows users to query Wikipedia in plain English and receive accurate, relevant information quickly. Whether you need quick facts, detailed explanations, or summaries of complex topics, WikiBot AI is here to assist you.
+
+![alt text](src/assets/app-ui.png)
 
 ## Features 
 - **Natural Language Querying**: Search for information using plain English queries. For example, ask "What is the capital of France?" or "Tell me about the history of the internet."
