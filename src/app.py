@@ -1,12 +1,14 @@
 import streamlit as st
 from wikisearch import search_wikipedia
 from model import generate_response
+from components.sidebar import side_info
 
 # Custom function to initialize the page
 def initPage(title):
     st.set_page_config(page_title=title)
 
-initPage("Search Wikipedia")
+initPage("🔍: WikiBotAI Query Interface")
+side_info()
 
 # Helper functions
 def link(i, item):
@@ -60,7 +62,7 @@ def get_query():
 user_query = get_query()
 if not user_query:
     st.info(
-        "Search Wikipedia and summarize the results using Gemini Flask model. Type a query to start or pick one of these suggestions:"
+        "Search your query and summarize the results using Gemini Flask model. Type a query to start or pick one of these suggestions:"
     )
 render_suggestions()
 render_query()
