@@ -43,6 +43,11 @@ WikiBot AI leverages the Gemini Flask model to enhance query search capabilities
 - **Real-Time Updates**: Ensures that the information provided is up-to-date by fetching the latest data from Wikipedia.
 - **Enhanced Query Search**: Leverages the Gemini Flask model to improve the accuracy and relevance of search results.
 
+## App Architecture
+
+![app workflow](src/assets/app-arch.png)
+
+
 ## Prerequisites 🛠️
 Before you begin, ensure you have the following installed on your machine:  
 - Python 3.8+
